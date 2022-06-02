@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D504F6F42848FFA5003C93CE /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D504F6F32848FFA5003C93CE /* TimeCounter.swift */; };
 		D58FDF0728467D9E00934D03 /* StateAndDataFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58FDF0628467D9E00934D03 /* StateAndDataFlowApp.swift */; };
 		D58FDF0928467D9E00934D03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58FDF0828467D9E00934D03 /* ContentView.swift */; };
 		D58FDF0B28467DA000934D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D58FDF0A28467DA000934D03 /* Assets.xcassets */; };
 		D58FDF0E28467DA000934D03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D58FDF0D28467DA000934D03 /* Preview Assets.xcassets */; };
+		D5E4BAEE28492AFF00253D1F /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E4BAED28492AFF00253D1F /* RegisterView.swift */; };
+		D5E4BAF128492F8300253D1F /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E4BAF028492F8300253D1F /* UserManager.swift */; };
+		D5E4BAF42849333200253D1F /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E4BAF32849333200253D1F /* StarterView.swift */; };
+		D5E4BAF928494BD600253D1F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E4BAF828494BD600253D1F /* DataManager.swift */; };
+		D5E4BAFC28494F8300253D1F /* ButtonAppearanceModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E4BAFB28494F8300253D1F /* ButtonAppearanceModifier.swift */; };
+		D5E4BAFF2849515C00253D1F /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E4BAFE2849515C00253D1F /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D504F6F32848FFA5003C93CE /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
 		D58FDF0328467D9E00934D03 /* StateAndDataFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StateAndDataFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D58FDF0628467D9E00934D03 /* StateAndDataFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateAndDataFlowApp.swift; sourceTree = "<group>"; };
 		D58FDF0828467D9E00934D03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D58FDF0A28467DA000934D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D58FDF0D28467DA000934D03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D58FDF0F28467DA000934D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E4BAED28492AFF00253D1F /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		D5E4BAF028492F8300253D1F /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		D5E4BAF32849333200253D1F /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		D5E4BAF828494BD600253D1F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		D5E4BAFB28494F8300253D1F /* ButtonAppearanceModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAppearanceModifier.swift; sourceTree = "<group>"; };
+		D5E4BAFE2849515C00253D1F /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +67,14 @@
 			isa = PBXGroup;
 			children = (
 				D58FDF0628467D9E00934D03 /* StateAndDataFlowApp.swift */,
+				D5E4BAF32849333200253D1F /* StarterView.swift */,
+				D5E4BAED28492AFF00253D1F /* RegisterView.swift */,
 				D58FDF0828467D9E00934D03 /* ContentView.swift */,
+				D5E4BAFE2849515C00253D1F /* ButtonView.swift */,
+				D5E4BAFB28494F8300253D1F /* ButtonAppearanceModifier.swift */,
+				D504F6F32848FFA5003C93CE /* TimeCounter.swift */,
+				D5E4BAF028492F8300253D1F /* UserManager.swift */,
+				D5E4BAF828494BD600253D1F /* DataManager.swift */,
 				D58FDF0A28467DA000934D03 /* Assets.xcassets */,
 				D58FDF0F28467DA000934D03 /* Info.plist */,
 				D58FDF0C28467DA000934D03 /* Preview Content */,
@@ -138,8 +159,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D504F6F42848FFA5003C93CE /* TimeCounter.swift in Sources */,
+				D5E4BAEE28492AFF00253D1F /* RegisterView.swift in Sources */,
+				D5E4BAF42849333200253D1F /* StarterView.swift in Sources */,
+				D5E4BAF928494BD600253D1F /* DataManager.swift in Sources */,
+				D5E4BAFC28494F8300253D1F /* ButtonAppearanceModifier.swift in Sources */,
 				D58FDF0928467D9E00934D03 /* ContentView.swift in Sources */,
+				D5E4BAF128492F8300253D1F /* UserManager.swift in Sources */,
 				D58FDF0728467D9E00934D03 /* StateAndDataFlowApp.swift in Sources */,
+				D5E4BAFF2849515C00253D1F /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +299,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"StateAndDataFlow/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = StateAndDataFlow/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -279,7 +307,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = belka.StateAndDataFlow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -292,7 +320,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"StateAndDataFlow/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = StateAndDataFlow/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = belka.StateAndDataFlow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
